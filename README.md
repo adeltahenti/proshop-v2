@@ -44,3 +44,5 @@ In App.js file, import
 
 In components folder, create Footer.jsx file in it. Import in the App.js file
 ![image3](utils/img3.png)
+
+Custom bootstrap, add assets folder
