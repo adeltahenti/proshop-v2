@@ -60,3 +60,29 @@ Import HomeScreen.js in App.js file
 
 Create Product component => /src/components/Product.jsx & import it in HomeScreen.js
 ![image5](utils/img5.png)
+
+Install React Router Dom
+
+```javascript
+npm i react-router-dom
+```
+
+To have routes, a lot of changes in index.js file
+![image6](utils/img6.png)
+
+We no longer need to import HomeScreen.js in App.js file, use Outlet from react-router-dom
+![image7](utils/img7.png)
+
+> Use Link in Product.js file, replace <ins>a</ins> tag with Link and change <ins>href</ins> attribute with <ins>to</ins> attribute
+
+Install React Router Bootstrap
+
+```javascript
+npm i react-router-bootstrap
+```
+
+And use LinkContianer from react-router-bootstrap like this
+before
+![image8](utils/img8.png)
+alter
+![image9](utils/img9.png)
