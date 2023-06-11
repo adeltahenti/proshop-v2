@@ -93,3 +93,10 @@ alter
 Create a Rating component and bring in it into Product component
 
 > If the name of product change we use product-title class (in index.css) to get the same Card height (add className in Card.Title in Product component)
+
+### Product details
+
+- Create ProductScreen.js file
+- Create a route in index.js file
+
+![image10](utils/img10.png)
