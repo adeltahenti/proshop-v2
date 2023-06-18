@@ -131,3 +131,13 @@ npm i -D nodemon concurrently
 
 and in package.json file
 ![image14](utils/img14.png)
+
+#### Environment variables
+
+Install dotenv as devdependency
+
+```javascript
+npm i -D dotenv
+```
+
+Add .env file in the root

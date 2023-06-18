@@ -1,10 +1,12 @@
 // server.js file
 
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
 import products from './data/products.js'; // must use .js extension using import
 import 'colors';
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
@@ -24,5 +26,5 @@ app.get('/api/products/:id', (req, res) => {
 });
 
 app.listen(PORT, () =>
-  console.log(`Server running on port ${PORT}...`.rainbow)
+  console.log(`Server running on port ${PORT} ...`.rainbow)
 );
