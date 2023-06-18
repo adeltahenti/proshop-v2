@@ -100,3 +100,25 @@ Create a Rating component and bring in it into Product component
 - Create a route in index.js file
 
 ![image10](utils/img10.png)
+
+# Create Server Side
+
+In the root
+
+```javascript
+npm init
+```
+
+Use ES6 modules, in package.json file in the root add type module
+
+![image11](utils/img11.png)
+
+Create server.js file in backend folder
+
+> To run server, in package.json file
+> ![image12](utils/img12.png)
+
+Install express & colors packages and text connection
+![image13](utils/img13.png)
+
+For data, create a data folder in backend and paste in it a copy of products.js file
