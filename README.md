@@ -118,7 +118,16 @@ Create server.js file in backend folder
 > To run server, in package.json file
 > ![image12](utils/img12.png)
 
-Install express & colors packages and text connection
+Install express & colors packages and test connection
 ![image13](utils/img13.png)
 
 For data, create a data folder in backend and paste in it a copy of products.js file
+
+Install nodemon and concurrently like devdependencies
+
+```javascript
+npm i -D nodemon concurrently
+```
+
+and in package.json file
+![image14](utils/img14.png)
