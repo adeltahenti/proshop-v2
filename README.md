@@ -141,3 +141,13 @@ npm i -D dotenv
 ```
 
 Add .env file in the root
+
+> Install axios like frontend dependency
+
+In frontend/package.json file add after private line
+![image15](utils/img15.png)
+
+Fetch data from backend, use axios in frontend/screens/HomeScreen.js file, and use useSate and useEffect
+![image16](utils/img16.png)
+
+> Do same thing in ProductScreen.js file
