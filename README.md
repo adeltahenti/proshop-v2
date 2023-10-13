@@ -209,3 +209,20 @@ In the middleware folder, create errorMiddleware.js file to customize errors
 #### Create in the controllers folder in the backend folder
 
 In the controllers folder, create productController.js file
+
+#### In frotend folder install a couple of packages
+
+```javascript
+npm i @reduxjs/toolkit react-redux
+```
+
+In frotend folder and in src folder, create store.js file, constants.js file
+
+Also create in src folder, slices folder
+
+#### In slices folder, we create:
+
+- apiSlice.js file
+- productApiSlice.js file
+
+Create Loader component & Message component
