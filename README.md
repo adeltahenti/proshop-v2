@@ -151,3 +151,61 @@ Fetch data from backend, use axios in frontend/screens/HomeScreen.js file, and u
 ![image16](utils/img16.png)
 
 > Do same thing in ProductScreen.js file
+
+### Connect to [mongodb.com](http://mongodb.com)
+
+- Create an organization if don't exits earlier
+- Create a project
+- Add to env file a connection string
+- In mongodb site, click to Browse Collections
+- And click on Add My Own data
+- db name, and collections
+
+### Intall Mongoose on the root directory
+
+```javascript
+npm i mongoose
+```
+
+#### Create a config folder in backend and db.js file in it
+
+![image17](utils/img17.png)
+
+#### Create a models folder in backend
+
+- Create producteModel.js file
+- Create userModel.js file
+- Create orderModel.js file
+
+In products.js file, move id from all products, and create a new file in data folder, users.js
+
+Install bcryotjs
+
+```javascript
+npm i bcryptjs
+```
+
+In the backend folder, create seeder.js file
+
+Create a script in package.json file
+
+Open Postmann and create:
+
+- New Workshop
+- New API
+- New Collection
+- All Requests we need into the collection
+
+#### Create routes folder in the backend folder
+
+In the route folder, create productsRoutes.js file
+
+#### Create middleware folder in the backend folder
+
+In the middleware folder, create asyncHandler.js file
+
+In the middleware folder, create errorMiddleware.js file to customize errors
+
+#### Create in the controllers folder in the backend folder
+
+In the controllers folder, create productController.js file
